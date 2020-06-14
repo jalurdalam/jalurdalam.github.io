@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jalur Dalam | Try Out UTBK</title>
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#btnInfo").click(function(e) {
+            e.preventDefault();
+            $('html,body').animate({
+                scrollTop: $("#subTitle").offset().top
+            }, 'slow');
+        });
+    });
+    </script>
+    <style>
+        @font-face {
+        font-family: "RoadTrack";
+        src: url("RoadTrack.ttf") format("truetype");
+        }
+    </style>
+</head>
+<body class="is-boxed has-animations">
+    <div class="body-wrap boxed-container">
+        <header class="site-header">
+            <div class="container">
+                <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="NavigationBar">
+                    <a class="navbar-brand" href="">
+                        <img class="asset-light" src="dist/images/logo-jd-dark.png" style="height: 30px;"/>
+                        <img class="asset-dark" src="dist/images/logo-jd-light.png" style="height: 30px;"/>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="">Home <span class="sr-only">(current)</span></a>
+                        <!--
+                        <a class="nav-item nav-link" href="http://jalurdalam.github.io/tryout1">Try Out Jalur Dalam 20.1</a>
+                        
+                        <a class="nav-item nav-link" href="#">Pricing</a>
+                        <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        -->
+                      </div>
+                    </div>
+                  </nav>
+                <div class="site-header-inner">
+                    <div class="brand header-brand">
+                        <h1 class="m-0">
+                            <a href="#">
+								<img class="header-logo-image asset-light" src="dist/images/logo-light.svg" alt="Logo">
+								<img class="header-logo-image asset-dark" src="dist/images/logo-dark.svg" alt="Logo">
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-inner">
+						<div class="hero-copy">
+                            <img class="asset-light" src="dist/images/logo-jd-dark.png" style="height: auto;"/>
+                            <img class="asset-dark" src="dist/images/logo-jd-light.png" style="height: auto;"/>
+	                        <p class="hero-paragraph" style="margin-top:20px;">Solusi tepat masuk kampus impian kamu.<br>Intip soalnya dulu sebelum ujian.</p>
+	                        <div class="hero-cta">
+								<a class="button button-primary" id="btnInfo">INFO SELENGKAPNYA</a>
+								<div class="lights-toggle">
+									<input id="lights-toggle" type="checkbox" name="lights-toggle" class="switch" checked="checked">
+									<label for="lights-toggle" class="text-xs"><span>Turn me <span class="label-text">dark</span></span></label>
+								</div>
+							</div>
+						</div>
+						<div class="hero-media">
+							<div class="header-illustration">
+								<img class="header-illustration-image asset-light" src="dist/images/header-illustration-light.svg" alt="Header illustration">
+								<img class="header-illustration-image asset-dark" src="dist/images/header-illustration-dark.svg" alt="Header illustration">
+							</div>
+							<div class="hero-media-illustration">
+								<img class="hero-media-illustration-image asset-light" src="dist/images/hero-media-illustration-light.svg" alt="Hero media illustration">
+								<img class="hero-media-illustration-image asset-dark" src="dist/images/hero-media-illustration-dark.svg" alt="Hero media illustration">
+							</div>
+							<div class="hero-media-container">
+								<img class="hero-media-image asset-light" src="dist/images/hero-media-light-new-2.svg" alt="Hero media">
+								<img class="hero-media-image asset-dark" src="dist/images/hero-media-dark-new-2.svg" alt="Hero media">
+							</div>
+						</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="features section">
+                <div class="container">
+					<div class="features-inner section-inner has-bottom-divider" id="subTitle">
+						<div class="features-header text-center">
+							<div class="container-sm" style="margin-top: 50px;">
+								<h2 class="section-title mt-0">Sudah siap menghadapi UTBK?</h2>
+	                            <p class="section-paragraph">Tenang aja, ada Jalur Dalam yang siap membantu kamu. Matangkan persiapanmu dan raih nilai UTBK tinggi dengan Try Out bersama kami.</p>
+								<div class="features-image">
+									<img class="features-illustration asset-dark" src="dist/images/features-illustration-dark.svg" alt="Feature illustration">
+									<img class="features-box asset-dark" src="dist/images/features-box-dark.svg" alt="Feature box">
+									<img class="features-illustration asset-dark" src="dist/images/features-illustration-top-dark.svg" alt="Feature illustration top">
+									<img class="features-illustration asset-light" src="dist/images/features-illustration-light.svg" alt="Feature illustration">
+									<img class="features-box asset-light" src="dist/images/features-box-light.svg" alt="Feature box">
+									<img class="features-illustration asset-light" src="dist/images/features-illustration-top-light.svg" alt="Feature illustration top">
+								</div>
+							</div>
+                        </div>
+                        <div class="features-wrap">
+                            <div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img class="asset-light" src="dist/images/feature-01-light.svg" alt="Feature 01">
+										<img class="asset-dark" src="dist/images/feature-01-dark.svg" alt="Feature 01">
+                                    </div>
+									<div class="feature-content">
+                                    	<h3 class="feature-title mt-0">Kapan pendaftaran dibuka?</h3>
+                                    	<p class="text-sm mb-0">Pendaftaran dibuka pada tanggal 15 - 22 Juni 2020</p>
+									</div>
+								</div>
+                            </div>
+							<div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img class="asset-light" src="dist/images/feature-02-light.svg" alt="Feature 02">
+										<img class="asset-dark" src="dist/images/feature-02-dark.svg" alt="Feature 02">
+                                    </div>
+									<div class="feature-content">
+                                    	<h3 class="feature-title mt-0">Kapan pelaksanaan Try Out berlangsung?</h3>
+                                    	<p class="text-sm mb-0">"Try Out Jalur Dalam 20.1" dapat dikerjakan pada tanggal 23 - 25 Juni 2020. Try Out dikerjakan melalui web ini</p>
+									</div>
+								</div>
+                            </div>
+							<div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img class="asset-light" src="dist/images/feature-03-light.svg" alt="Feature 03">
+										<img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="Feature 03">
+                                    </div>
+									<div class="feature-content">
+                                    	<h3 class="feature-title mt-0">Apa saja yang akan didapat?</h3>
+                                    	<p class="text-sm mb-0">Peserta akan mendapatkan nilai dan ranking, serta pembahasan dari soal "Try Out Jalur Dalam 20.1" yang dikerjakan</p>
+									</div>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+			<section class="cta section">
+                <div class="container-sm">
+                    <div class="cta-inner section-inner">
+                        <div class="cta-header text-center">
+                            <h2 class="section-title mt-0">Tunggu apa lagi? Ayo daftar, GRATIS!</h2>
+                            <p class="section-paragraph">Pelaksanaan "Try Out Jalur Dalam 20.1" ini tidak dipungut biaya apapun. Untuk kelancaran Try Out, pastikan kamu mengisi data yang valid, ya!</p>
+							<div class="cta-cta">
+								<a class="button button-primary" href="https://forms.gle/tAkY1sUTX3Mwkq16A" target="_blank">Daftar Sekarang</a>
+							</div>
+					    </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer has-top-divider">
+            <div class="container">
+                <div class="site-footer-inner">
+                    <div class="brand footer-brand" style="margin-bottom: 24px;float:left;height:30px;width: 50%;">
+                        <a href="http://jalurdalam.github.io/" style="height: -webkit-fill-available;">
+							<img style="height: 30px;" src="dist/images/logo-mini-jd.png" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="social-link" style="margin-bottom: 24px;height:30px;width:50%;float:right;">
+                        <a href="http://instagram.com/jalurdalam/" style="height:-webkit-fill-available;float:right">
+                            <span class="screen-reader-text">Google</span>
+                            <svg width="25" height="25" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="m 12.499977,2.2522981 c 3.337659,0 3.732973,0.012703 5.05105,0.072841 1.218737,0.055622 1.8806,0.2592585 2.321117,0.430394 0.583418,0.2267578 0.99987,0.4976767 1.437261,0.9350669 0.437389,0.4373898 0.708306,0.8538406 0.935014,1.437259 0.171187,0.440516 0.374823,1.1023816 0.430445,2.3210699 0.06014,1.3181242 0.07284,1.7134381 0.07284,5.0510971 0,3.33766 -0.01266,3.732974 -0.07284,5.051047 -0.05562,1.218739 -0.259258,1.880604 -0.430445,2.321122 -0.226708,0.583417 -0.497625,0.999868 -0.935014,1.437258 -0.437391,0.437391 -0.853843,0.708309 -1.437261,0.935017 -0.440517,0.171189 -1.10238,0.374822 -2.321117,0.430444 -1.317879,0.06014 -1.713191,0.07283 -5.05105,0.07283 -3.3378592,0 -3.7331728,-0.01266 -5.0510487,-0.07283 C 6.2301902,22.619292 5.5683247,22.415655 5.1278583,22.244469 4.5443903,22.017762 4.1279395,21.746844 3.6905497,21.309453 3.2531595,20.872062 2.9822408,20.455612 2.7555323,19.872192 2.5843473,19.431677 2.3807114,18.769812 2.3250889,17.551123 2.2649514,16.233 2.2522483,15.837686 2.2522483,12.500025 c 0,-3.3376591 0.012703,-3.7329725 0.072841,-5.051047 C 2.3807114,6.23024 2.5843473,5.5683744 2.7555323,5.1278583 2.9822408,4.54444 3.2531595,4.1279891 3.6905497,3.6905994 4.1279395,3.2532092 4.5443903,2.9822903 5.1278583,2.7555323 5.5683247,2.5843969 6.2301902,2.3807613 7.4488788,2.3251386 8.7670027,2.2649995 9.1623163,2.252298 12.499977,2.252298 M 12.499977,0 C 9.1051552,0 8.6795252,0.01438945 7.3462669,0.07522216 6.0157378,0.13595561 5.1071177,0.34723259 4.3119759,0.6562587 3.4899902,0.97570477 2.7928953,1.4031213 2.0979836,2.0980333 1.4030717,2.792945 0.97565516,3.49004 0.65620908,4.3120256 0.34718298,5.1071673 0.13590598,6.0157873 0.07517252,7.3463166 0.01433984,8.679525 0,9.1052044 0,12.500025 c 0,3.394822 0.01433984,3.820502 0.07517252,5.153711 0.06073346,1.33053 0.27201046,2.239148 0.58103656,3.034291 0.31944608,0.821935 0.74686262,1.519079 1.44177452,2.213992 0.6949117,0.694912 1.3920066,1.122328 2.2139923,1.441775 0.7951418,0.309025 1.7037619,0.520301 3.034291,0.581036 C 8.6795252,24.985673 9.1051552,25 12.499977,25 c 3.39482,0 3.820501,-0.01438 5.153709,-0.07517 1.330528,-0.06073 2.239148,-0.272011 3.034289,-0.581036 0.821989,-0.319447 1.519083,-0.746862 2.213995,-1.441775 0.694911,-0.694912 1.122328,-1.392008 1.441774,-2.213992 0.309026,-0.795142 0.520301,-1.703761 0.581037,-3.034291 C 24.985616,16.320525 25,15.894845 25,12.500024 25,9.1052028 24.985602,8.6795234 24.924781,7.346315 24.864045,6.0157873 24.65277,5.1071673 24.343744,4.3120256 24.024298,3.49004 23.596881,2.792945 22.90197,2.0980333 22.207058,1.4031213 21.509964,0.97570477 20.687975,0.6562587 19.892834,0.34723259 18.984214,0.13595561 17.653686,0.07522216 16.320478,0.01438945 15.894797,0 12.499977,0 Z m 0,6.0810859 c -3.5450681,0 -6.4189409,2.873873 -6.4189409,6.4189391 0,3.545069 2.8738728,6.418942 6.4189409,6.418942 3.545067,0 6.418942,-2.873873 6.418942,-6.418942 0,-3.5450661 -2.873875,-6.4189391 -6.418942,-6.4189391 z m 0,10.5856311 c -2.301173,0 -4.1666926,-1.865519 -4.1666926,-4.166692 0,-2.301171 1.8655196,-4.1666908 4.1666926,-4.1666908 2.301171,0 4.166692,1.8655198 4.166692,4.1666908 0,2.301173 -1.865521,4.166692 -4.166692,4.166692 z M 20.672495,5.8274841 c 0,0.8284359 -0.67154,1.5000268 -1.499978,1.5000268 -0.828433,0 -1.500025,-0.6715909 -1.500025,-1.5000268 0,-0.8284364 0.671592,-1.4999775 1.500025,-1.4999775 0.828438,0 1.499978,0.6715411 1.499978,1.4999775 z"
+                                    fill="#FFF"
+                                />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="footer-copyright">&copy; 2018 Switch, all rights reserved</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="dist/js/main.min.js"></script>
+</body>
+</html>
